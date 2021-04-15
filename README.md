@@ -11,10 +11,7 @@ jest nullem, chcielibyśmy, że metoda rzuciła wyjątkiem – proszę to sprawd
 asercji.
 
 ## Zadanie 3
-* Interfejs obiektu który sprawdza czy dane słowa są anagramami. * Anagram
-jest słowem lub frazą, która powstała <br />
-* przez zmianę kolejności liter w oryginalnym słowie lub frazie. <br />
-* Zobacz kilka przykładów na http://www.wordsmith.org/anagram/hof.html : <br />
+Interfejs obiektu który sprawdza czy dane słowa są anagramami (przez zmianę kolejności liter w oryginalnym słowie lub frazie) <br />
 ### public interface IAnagramChecker <br />
 ### { <br />
 &nbsp;&nbsp;&nbsp; Sprawdza czy jedno slowo jest anagramem drugiego. <br />
@@ -37,14 +34,14 @@ jakiś specjalny sposób). <br />
 „Formularz zawiera pole "PESEL", system udziela zniżki osobom poniżej 18 i powyżej 65
 lat." <br />
 Proszę w zadaniu korzystać z interface’u: <br />
-public interface IDiscountFromPeselComputer <br />
-{ <br />
-bool HasDiscount(String pesel) <br />
-} <br />
+### public interface IDiscountFromPeselComputer <br />
+### { <br />
+### &nbsp;&nbsp;&nbsp; bool HasDiscount(String pesel) <br />
+### } <br />
 oraz z klasy wyjątku: <br />
-public class InvalidPeselException : Exception <br />
-{ <br />
-} <br />
+### public class InvalidPeselException : Exception <br />
+### { <br />
+### } <br />
 A. Proszę napisać za pomocą TDD testy jednostkowe dla interfejsu
 IDiscountFromPeselComputer <br />
 B. Proszę sprawdzić jaki odsetek Państwa testów nie przechodzi dla przykładowej
