@@ -11,20 +11,20 @@ jest nullem, chcielibyśmy, że metoda rzuciła wyjątkiem – proszę to sprawd
 asercji.
 
 ## Zadanie 3
-[* Interfejs obiektu który sprawdza czy dane słowa są anagramami. * Anagram
+* Interfejs obiektu który sprawdza czy dane słowa są anagramami. * Anagram
 jest słowem lub frazą, która powstała <br />
 * przez zmianę kolejności liter w oryginalnym słowie lub frazie. <br />
-* Zobacz kilka przykładów na http://www.wordsmith.org/anagram/hof.html] <br />
-public interface IAnagramChecker <br />
-{ <br />
-[Sprawdza czy jedno slowo jest anagramem drugiego. <br />
-* Wszystkie niealfanumeryczne znaki są ignorowane. <br />
-* Wielkość liter nie ma znaczenia. <br />
-* word1 - dowolny niepusty string różny od null. <br />
-* word2 - dowolny niepusty string różny od null. <br />
-* Zwraca true wtedy i tylko wtedy gdy word1 jest anagramem word2.] <br />
-bool IsAnagram(string word1, string word2); <br />
-} <br />
+* Zobacz kilka przykładów na http://www.wordsmith.org/anagram/hof.html : <br />
+### public interface IAnagramChecker <br />
+### { <br />
+&nbsp;&nbsp;&nbsp; Sprawdza czy jedno slowo jest anagramem drugiego. <br />
+&nbsp;&nbsp;&nbsp; * Wszystkie niealfanumeryczne znaki są ignorowane. <br />
+&nbsp;&nbsp;&nbsp; * Wielkość liter nie ma znaczenia. <br />
+&nbsp;&nbsp;&nbsp; * word1 - dowolny niepusty string różny od null. <br />
+&nbsp;&nbsp;&nbsp; * word2 - dowolny niepusty string różny od null. <br />
+&nbsp;&nbsp;&nbsp; * Zwraca true wtedy i tylko wtedy gdy word1 jest anagramem word2. <br />
+### &nbsp;&nbsp;&nbsp; bool IsAnagram(string word1, string word2); <br />
+### } <br />
 
 A. Proszę napisać jak najlepszy zestaw testów jednostkowych dla powyższego. <br />
 B. Proszę zaimplementować klasę AnagramChecker. <br />
